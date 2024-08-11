@@ -8,6 +8,6 @@ int main()
 
     FILE *fp;
     fp = fopen("file.txt", "r");
-    // fclose(fp);
+    fclose(fp);
     return 0;
 }
